@@ -1,0 +1,32 @@
+img{
+    max-width: 100%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: blanchedalmond;
+}
+.description{
+    color: silver;
+}
+#btn{
+    align-content: center;
+    padding: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto; /*this will give us
+    3 even columns*/
+
+}
+
+.grid-container>div{
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px 30px 20px 30px;
+    padding-bottom: 20px;
+    width: 300px;
+}
